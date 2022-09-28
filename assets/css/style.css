@@ -1,0 +1,168 @@
+/*=============================================
+                Allgemeines
+==============================================*/
+
+@font-face {
+    font-family: Gilda;
+    src: url("../fonts/GildaDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: Maven;
+    src: url("../fonts/MavenPro-Medium.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.8rem;
+}
+
+html {
+    font-size: 10px;
+}
+
+/*=============================================
+                Header
+==============================================*/
+header {
+    font-family: Gilda;
+    color: rgba(255, 255, 255, 0.609);
+    background-color: #333;
+}
+
+header article {
+    background-image: linear-gradient(to bottom left, #3dc8d5, #194894, #8507e1);
+    padding: 15px;
+    width: 23%;
+    margin: 21vh auto 18vh auto;
+}
+
+header article:hover {
+    background-image: linear-gradient(to bottom left, #8507e1, #194894, #3dc8d5);
+}
+
+header article p {
+    padding-bottom: 20px;
+}
+
+header article p:nth-of-type(1) {
+    font-size: 5rem;
+    text-align: center;
+    color: white
+}
+
+.logo {
+    letter-spacing: 1rem;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.609);
+    width: 5vw;
+    padding: 1vh;
+}
+
+header nav {
+    width: 15%;
+    margin-left: 86%;
+    padding-right: 5vw;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+header nav ul li a {
+    line-height: 25px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.609);
+}
+
+header nav ul li a:hover {
+    color: rgba(255, 255, 255, 0.834);
+}
+
+/*=============================================
+                Main
+==============================================*/
+main {
+    height: 100vh;
+}
+
+div {
+    margin-top: 30vh;
+    margin-left: 10vh;
+    height: 9vh;
+    background-image: url("https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+main article {
+    margin: 0px 0px 7vh 10vh;
+    width: 36%;
+
+}
+
+main article h1 {
+    font-size: 5rem;
+}
+
+main article p {
+    font-family: Gilda;
+    line-height: 2.2rem;
+}
+
+main article p:nth-of-type(2) {
+    margin-top: 2vh;
+}
+
+/*=============================================
+                Footer
+==============================================*/
+footer article img {
+    display: block;
+    width: 80%;
+    margin: 0px auto;
+    border-radius: 5px;
+}
+
+footer article {
+    height: 100vh;
+    margin: 0px 15%;
+}
+
+footer article p,
+footer article h2 {
+    width: 30%;
+    margin-left: 10%;
+}
+
+footer article h2 {
+    margin-top: 7vh;
+    font-size: 3rem;
+}
+
+footer article p {
+    text-transform: uppercase;
+    margin-top: 2vh;
+}
+
+/* footer article img {
+    display: block;
+    width: 80%;
+    margin: 0px auto;
+
+} */
+
+/* footer article {
+    margin: 0px auto;
+} */
+
+/* footer article {
+    width: 75px;
+    margin-left: 10vw;
+
+
+} */
