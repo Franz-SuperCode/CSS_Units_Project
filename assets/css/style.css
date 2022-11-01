@@ -30,6 +30,7 @@ header {
     font-family: Gilda;
     color: rgba(255, 255, 255, 0.609);
     background-color: #333;
+    height: 100vh;
 }
 
 header article {
@@ -45,6 +46,7 @@ header article:hover {
 
 header article p {
     padding-bottom: 20px;
+    text-align: center;
 }
 
 header article p:nth-of-type(1) {
@@ -64,7 +66,7 @@ header article p:nth-of-type(1) {
 header nav {
     width: 15%;
     margin-left: 86%;
-    padding-right: 5vw;
+    padding-right: 5%;
 }
 
 header nav ul {
